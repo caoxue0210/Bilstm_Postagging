@@ -1,0 +1,30 @@
+class Hyperparameter:
+    def __init__(self):
+        self.lr = 0.01
+        self.batch = 5
+        self.epochs = 100
+        self.shuffle = 'True'
+        self.hidden_size = 0
+        self.embedding_num = 0
+        self.embedding_dim = 300
+        self.wordEmbeddingsize = 0
+        self.kernel_num = 200
+        self.kernel_sizes = [3, 4, 5]
+        self.hidden_size = 0
+        self.tag_size = 0
+        self.word_Embedding = True
+        self.word_embedding_path = "./data/converted_word_subj.txt"
+        self.pretrained_weight = None
+        self.LSTM_hidden_dim = 300
+        self.num_layers = 1
+        # self.unknow = itier.data.change.w_index.dict["#unknow#"]
+        self.unknow = "#-unknow-#"
+        self.tag_unknow_id = 0
+        self.unknow_id = 0
+        self.padding = "#-padding-#"
+        self.tag_padding_id = 0
+        self.padding_id = 0
+        self.dropout_embed = 0.6
+        self.dropout = 0.5
+        self.save_dir = "snapshot"
+        self.LSTM_model = True
